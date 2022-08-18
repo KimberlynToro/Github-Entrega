@@ -9,8 +9,14 @@ h1{
     color: blueviolet;
     margin: 18px;
     padding: 15px;
+    font-size:50px;
 }
 
+h1:hover{
+    color: brown;
+    font-weight: bolder;
+    transition: .3s;
+}
 p{
     font-family: sans-serif;
     margin: 10px;
@@ -19,4 +25,10 @@ p{
 img{
     width: 300px;
     margin: 10px;
+}  
+
+img:hover{
+    transform: rotate(344deg);
+    transition: .5s;
+
 }
